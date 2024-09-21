@@ -53,7 +53,7 @@ export class HomePage {
       radius: 500
      }).addTo(this.map);
 
-    circle.bindPopup("<b>Hello world!</b><br>I am at London.").openPopup();
+    circle.bindPopup("London.").openPopup();
 
 
   }
